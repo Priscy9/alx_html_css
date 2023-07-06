@@ -1,0 +1,32 @@
+main 
+{
+    display: flex;
+    flex-direction: row;
+    flex:auto;
+    border:1px black;
+    background-image:URL("cloudimage.jpg");
+
+
+}
+
+body 
+{
+    display: flex;
+    flex-direction: column;
+    border:1px black;
+}
+
+article 
+{
+    flex:2;
+    overflow-y: auto;
+    border:1px black;
+    color: brown;
+    justify-content: center;
+}
+
+
+
+aside {flex: 1;
+overflow-y: auto;}
+
